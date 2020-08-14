@@ -7,7 +7,11 @@ function retrieveCat(){
     {
         if(($responseObj = json_decode($responseString)) !==NULL) 
         {
-            var_dump($responseObj);
+            //var_dump($responseObj); -- okay!
+            $all = $responseObj->all;
+            //var_dump($all); --okay!
+            return $all;
+
         }
         else
         {
@@ -18,5 +22,5 @@ function retrieveCat(){
     {
        echo 'Unable to connect/retrieve data from API';
     }
+    return FALSE;
 }
-retrieveCat();

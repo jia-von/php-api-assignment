@@ -1,3 +1,4 @@
+<?php include 'cat-api.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Output</h1>
+    <?php $cats = retrieveCat() ?>
 </body>
 </html>

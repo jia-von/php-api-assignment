@@ -20,4 +20,6 @@ $ php -S localhost:80
 
 ![Screenshot](image.png)
 
+### Screenshot as shown in the browser
 
+![Screenshot](browser.png)

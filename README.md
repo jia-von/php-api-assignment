@@ -22,4 +22,4 @@ $ php -S localhost:80
 
 ### Screenshot as shown in the browser
 
-![Browser](browser.png)
+![Browser](browser.PNG)

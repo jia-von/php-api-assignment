@@ -18,8 +18,8 @@ $ php -S localhost:80
 
 ### Screenshot shown in [Postman](https://www.postman.com) API Developer
 
-![Screenshot](image.png)
+![Postman](image.png)
 
 ### Screenshot as shown in the browser
 
-![Screenshot](browser.png)
+![Browser](browser.png)
